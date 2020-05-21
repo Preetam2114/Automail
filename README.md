@@ -1,0 +1,44 @@
+# Automail
+
+
+Automail is a python package for making bulk mailing easy.
+
+Automail comes with a bunch of functions:
+
+csv_list : The function returns a list of list containing the receipent name and email.
+		the function has only one arguement 'csv_file' which is the reference to the csv file containing
+		receipent details.
+
+## Usage:
+```
+		from Automail import csv_list
+
+		myvar = csv_list('location to the csv file')
+```
+
+
+send_email : This function is responsible for structuring the email and sending it to the respective receipents
+		the function include following arguements.
+
+		subject: str argument for adding subject to email.
+
+		body: This function argument is responsible for creating the body of the email it supports HTML and Text format,
+			for case where you need to add name of the recepient use {} the function will autoreplace it with the recepient name.
+
+		attachment: This function argument is responsbile for providing the reference of the attachment file location.
+
+		receivers : This function argument is list of list created using the csv_list().
+
+
+## usage:
+```
+		from Automail import csv_list,send_email
+
+		subject = 'This is the email subject'
+		body  = 'This is the email body'
+		attachment = 'location of attachment file'
+		receivers = csv_list('location to the csv file')
+
+		send_email(subject, body, attachment, receivers)
+```
+
