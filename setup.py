@@ -5,7 +5,7 @@ with open("README.md","r") as fh:
 
 setup(
 	name = "Automail",
-	version = "0.0.2",
+	version = "0.0.1",
 	description ="sends bulk automated emails",
 	py_modules = ["Automail"],
 	package_dir = {'':'src'},

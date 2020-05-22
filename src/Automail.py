@@ -10,6 +10,7 @@ from time import sleep
 def csv_list(csv_file):
 
 	if csv_file.endswith('.csv'):
+		file = csv_file
 		while True:
 			try:
 				r_name = input("\n>Please enter the column name with receiver names:")
@@ -23,11 +24,13 @@ def csv_list(csv_file):
 						email_receiver = row[str(r_email)]
 						receivers.append([Name,email_receiver])
 
-			except KeyError:
+			except:
+				csv_file = file
 				print("\n######### Please enter valid column names #########")
 
 			else:
 				break
+				
 		return receivers
 
 	else:
