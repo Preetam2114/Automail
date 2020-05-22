@@ -9,6 +9,13 @@ The distribution is available on following platforms:
 * [Automail on PyPI](https://pypi.org/project/Automail):link:
 * [Automail on Github](https://github.com/Preetam2114/Automail):link:
 
+# Installation :
+
+```bash
+		pip install Automail
+```
+
+
 ## Package Functions:
 
 Automail has 2 user function:
@@ -58,7 +65,7 @@ output:
 ```
 >NOTE: input for password field won't be displayed while typing for secutity purposes.
 
-## Running tests
+## Running test
 
 ```bash
 pip install -r requirements.txt
@@ -69,27 +76,21 @@ pytest -s
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact
-<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-<!-- display the social media buttons in your README -->
-[![alt text][1.1]][1]
-[![alt text][2.1]][2]
-[![alt text][3.1]][3]
+[![twitter][1.1]][1]
+[![linkedIn][2.1]][2]
+[![github][3.1]][3]
 
-<!-- links to your social media accounts -->
-<!-- update these accordingly -->
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[1.1]: http://i.imgur.com/tXSoThF.png
+[2.1]: https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png
+[3.1]: http://i.imgur.com/0o48UoR.png
 
 [1]: https://twitter.com/pvr_rane
-[2]: http://www.facebook.com/sednaoui
+[2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
 [3]: https://github.com/Preetam2114
-
-<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
 ## Wanna Contribute?
 
-Contribution is welcome.
+Your contribution is welcome!
 
 Pull Requests will be merged if they match the project requirements.
 
