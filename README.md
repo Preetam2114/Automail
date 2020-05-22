@@ -64,17 +64,19 @@ output:
 ```
 >NOTE: input for password field won't be displayed while typing for secutity purposes.
 
-## Running test
+# 
+
+# Running test
 
 ```bash
 pip install -r requirements.txt
 pytest -s
 ```
 
-## License
+# License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Contact
+# Contact
 [![twitter][1.1]][1]
 [![linkedIn][2.1]][2]
 [![github][3.1]][3]
@@ -87,7 +89,7 @@ pytest -s
 [2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
 [3]: https://github.com/Preetam2114
 
-## Wanna Contribute?
+# Wanna Contribute?
 
 Your contribution is welcome!
 
