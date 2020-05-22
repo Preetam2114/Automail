@@ -41,9 +41,9 @@ output:
      - subject: This argument is responsible for subject of the email.
      - body: This argument is responsible for the email body.
        - Support:
-         - [x] HTML TEMPLATES
-	 - [x] TEXT
-	 - [ ] Forms (not tested)
+          - [x] HTML TEMPLATES
+	  - [x] TEXT
+	  - [ ] Forms (not tested)
      - attachment :This argument is responsible for attachment source and supports varities of file formats.
      - receivers : This argument passes the list of list careated using __csv_list__ finction.
 
