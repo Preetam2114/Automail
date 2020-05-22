@@ -6,10 +6,17 @@ Home-page: https://github.com/Preetam2114/Automail
 Author: Preetam Rane
 Author-email: preetamrane2114@gmail.com
 License: UNKNOWN
-Description: # Automail
+Description: [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://badge.fury.io/py/Automail)
+        
+        # Automail
         
         
-        Automail is a python package for making bulk mailing easy.
+        Automail is a open source python package licensed under GNU General Public License v3 
+        for making bulk mailing easy.
+        
+        The distribution is available on various platforms :
+        * [Automail on PyPI](https://pypi.org/project/Automail):link:
+        * [Automail on Github](https://github.com/Preetam2114/Automail):link:
         
         Automail comes with a bunch of functions:
         
@@ -62,13 +69,28 @@ Description: # Automail
         		Please enter your password: .......
         		(Input for password field won't be displayed)
         ```
+        ## Running tests
         
+        ```
+        pytest -s
+        ```
+        
+        ## Contributing
+        
+        Contribution is welcome.
+        
+        Pull Requests will be merged if they match the [Development Guide](#).
+        
+        For prototypes, pure python implementations using ctypes are also welcome.
+        We will probably port it to a proper extension in the future.
+        
+        Please ask questions [here](https://github.com/Preetam2114/Automail/issues).
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
-Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
