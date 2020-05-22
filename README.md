@@ -9,7 +9,7 @@ The distribution is available on following platforms:
 * [Automail on PyPI](https://pypi.org/project/Automail):link:
 * [Automail on Github](https://github.com/Preetam2114/Automail):link:
 
-# Installation :
+## Installation :
 
 ```bash
 		pip install Automail
@@ -64,19 +64,20 @@ output:
 ```
 >NOTE: input for password field won't be displayed while typing for secutity purposes.
 
-# 
+# Note:
+> In some cases google might restrict login in that case you need to enable Less secure app access [click here](https://myaccount.google.com/lesssecureapps)
 
-# Running test
+## Running test
 
 ```bash
 pip install -r requirements.txt
 pytest -s
 ```
 
-# License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-# Contact
+## Contact
 [![twitter][1.1]][1]
 [![linkedIn][2.1]][2]
 [![github][3.1]][3]
@@ -89,7 +90,7 @@ pytest -s
 [2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
 [3]: https://github.com/Preetam2114
 
-# Wanna Contribute?
+## Wanna Contribute?
 
 Your contribution is welcome!
 
