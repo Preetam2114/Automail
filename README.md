@@ -81,7 +81,7 @@ pytest -s
 [![github][3.1]][3]
 
 [1.1]: https://www.iconfinder.com/icons/104461/download/png/64
-[2.1]: https://www.iconfinder.com/icons/350988/download/png/64
+[2.1]: https://www.iconfinder.com/icons/107159/download/png/64
 [3.1]: https://www.iconfinder.com/icons/394187/download/png/64
 
 [1]: https://twitter.com/pvr_rane
