@@ -3,8 +3,7 @@
 # Automail
 
 
-Automail is a open source python package licensed under MIT 
-for making bulk mailing easy.
+Automail is a open source python package for making bulk mailing easy.
 
 The distribution is available on various platforms :
 * [Automail on PyPI](https://pypi.org/project/Automail):link:
@@ -13,9 +12,9 @@ The distribution is available on various platforms :
 ## Usage:
 
 Automail has 2 user function:
- csv_list(CSV_FILE):
-  Function arguments:
-   CSV_FILE: points towards the file location
+1. csv_list(CSV_FILE):
+   - Function arguments:
+     - CSV_FILE: points towards the file location
 		 
 ```py
 		from Automail import csv_list
@@ -53,6 +52,13 @@ output:
 ```
 pytest -s
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact
+
+
 
 ## Contributing
 
