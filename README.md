@@ -13,9 +13,9 @@ The distribution is available on various platforms :
 ## Usage:
 
 Automail has 2 user function:
- 1. csv_list:
-	Function arguments:
-	 * CSV_FILE: points towards the file location
+ 	1. csv_list:
+		Function arguments:
+	 	 * CSV_FILE: points towards the file location
 		 
 ```py
 		from Automail import csv_list
