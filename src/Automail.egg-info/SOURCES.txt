@@ -3,6 +3,7 @@ MANIFEST.in
 Pipfile
 Pipfile.lock
 README.md
+requirements.txt
 setup.py
 test_Automail.py
 src/Automail.py
