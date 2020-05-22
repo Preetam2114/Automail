@@ -3,7 +3,12 @@
 # Automail
 
 
-Automail is a python package for making bulk mailing easy.
+Automail is a open source python package licensed under GNU General Public License v3 
+for making bulk mailing easy.
+
+The distribution is available on various platforms :
+* [Automail on PyPI](https://pypi.org/project/Automail)
+* [Automail on Github](https://github.com/Preetam2114/Automail)
 
 Automail comes with a bunch of functions:
 
