@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/Automail.svg)](https://badge.fury.io/py/Automail)
+
 # Automail
 
 
