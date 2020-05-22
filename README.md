@@ -76,4 +76,4 @@ Pull Requests will be merged if they match the [Development Guide](#).
 For prototypes, pure python implementations using ctypes are also welcome.
 We will probably port it to a proper extension in the future.
 
-Please ask questions [here](https://github.com/Automail/issues).
+Please ask questions [here](https://github.com/Preetam2114/Automail/issues).
