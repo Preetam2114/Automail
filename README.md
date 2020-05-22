@@ -85,7 +85,7 @@ pytest -s
 [3.1]: http://i.imgur.com/0o48UoR.png
 
 [1]: https://twitter.com/pvr_rane
-[2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
+[2]: https://t4.ftcdn.net/jpg/02/85/53/15/240_F_285531517_M6XBdJsMxEE0xqOooSmG3JIn1b7cdrmq.jpg
 [3]: https://github.com/Preetam2114
 
 ## Wanna Contribute?
