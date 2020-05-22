@@ -81,7 +81,7 @@ pytest -s
 [![github][3.1]][3]
 
 [1.1]: http://i.imgur.com/tXSoThF.png
-[2.1]: https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png
+[2.1]: https://i.imgur.com/0IdggSZ.png
 [3.1]: http://i.imgur.com/0o48UoR.png
 
 [1]: https://twitter.com/pvr_rane
