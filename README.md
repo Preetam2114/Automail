@@ -61,4 +61,19 @@ send_email : This function is responsible for structuring the email and sending 
 		Please enter your password: .......
 		(Input for password field won't be displayed)
 ```
+## Running tests
 
+```
+pytest -s
+```
+
+## Contributing
+
+Contribution is welcome.
+
+Pull Requests will be merged if they match the [Development Guide](#).
+
+For prototypes, pure python implementations using ctypes are also welcome.
+We will probably port it to a proper extension in the future.
+
+Please ask questions [here](https://github.com/Automail/issues).
