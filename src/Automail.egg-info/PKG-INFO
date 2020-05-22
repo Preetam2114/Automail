@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Automail
-Version: 0.0.1
+Version: 0.0.3
 Summary: sends bulk automated emails
 Home-page: https://github.com/Preetam2114/Automail
 Author: Preetam Rane
@@ -11,50 +11,52 @@ Description: [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://ba
         # Automail
         
         
-        Automail is a open source python package licensed under GNU General Public License v3 
-        for making bulk mailing easy.
+        Automail is an open source python package to make bulk mailing easy.
         
-        The distribution is available on various platforms :
+        The distribution is available on following platforms:
         * [Automail on PyPI](https://pypi.org/project/Automail):link:
         * [Automail on Github](https://github.com/Preetam2114/Automail):link:
         
-        Automail comes with a bunch of functions:
+        ## Installation :
         
-        csv_list : The function returns a list of list containing the receipent name and email.
-        		the function has only one arguement 'csv_file' which is the reference to the csv file containing
-        		receipent details.
-        
-        ## Usage:
+        ```bash
+        		pip install Automail
         ```
+        
+        
+        ## Package Functions:
+        
+        Automail has 2 user function:
+        1. csv_list(CSV_FILE): This user function generates list of list
+        		containing maiiling details of the receivers
+           - Function arguments:
+             - CSV_FILE: points towards the file location
+        #### usage:	 
+        ```py
         		from Automail import csv_list
         
         		myvar = csv_list('location to the csv file')
         
         ```
-        ```
-        		*Replace Column name as per your csv*
-        		output:
+        output:
+        ```bash
         		Please enter the column name with receiver names: Column name
         		Please enter the column name with receiver email-id: Column name
         ```
+        2. send_email(subject, body, attachment, receivers): send_email is a stand-alone function 
+        						which can work without passing any argument	
+           - Function Parameter:
+             - subject: This argument is responsible for subject of the email.
+             - body: This argument is responsible for the email body the supported formats are marked below.
+               - [x] HTML TEMPLATE
+               - [x] TEXT
+               - [ ] FORMS (NOT TESTED)
+             - attachment :This argument is responsible for attachment source and supports varities of file formats.
+             - receivers : This argument passes the list of list careated using __csv_list__ finction.
         
-        
-        send_email : This function is responsible for structuring the email and sending it to the respective receipents
-        		the function include following arguements.
-        
-        		subject: str argument for adding subject to email.
-        
-        		body: This function argument is responsible for creating the body of the email it supports HTML and Text format,
-        			for case where you need to add name of the recepient use {name} the function will autoreplace it with the recepient name.
-        
-        		attachment: This function argument is responsbile for providing the reference of the attachment file location.
-        
-        		receivers : This function argument is list of list created using the csv_list().
-        
-        
-        ## usage:
-        ```
-        		from Automail import csv_list,send_email
+        #### usage:
+        ```py
+        		from Automail import send_email
         
         		subject = 'This is the email subject'
         		body  = 'This is the email body'
@@ -63,23 +65,44 @@ Description: [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://ba
         
         		send_email(subject, body, attachment, receivers)
         ```
-        ```
-        		output:
+        #### usage:
+        ```bash
         		Please enter your email address: xzy@gmail.com
         		Please enter your password: .......
-        		(Input for password field won't be displayed)
         ```
-        ## Running tests
+        >NOTE: input for password field won't be displayed while typing for secutity purposes.
         
-        ```
+        # Note:
+        > In some cases google might restrict login in that case you need to enable Less secure app access [click here](https://myaccount.google.com/lesssecureapps)
+        
+        ## Running test
+        
+        ```bash
+        pip install -r requirements.txt
         pytest -s
         ```
         
-        ## Contributing
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
         
-        Contribution is welcome.
+        ## Contact
+        [![twitter][1.1]][1]
+        [![linkedIn][2.1]][2]
+        [![github][3.1]][3]
         
-        Pull Requests will be merged if they match the [Development Guide](#).
+        [1.1]: https://www.iconfinder.com/icons/104461/download/png/64
+        [2.1]: https://www.iconfinder.com/icons/107159/download/png/64
+        [3.1]: https://www.iconfinder.com/icons/394187/download/png/64
+        
+        [1]: https://twitter.com/pvr_rane
+        [2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
+        [3]: https://github.com/Preetam2114
+        
+        ## Wanna Contribute?
+        
+        Your contribution is welcome!
+        
+        Pull Requests will be merged if they match the project requirements.
         
         For prototypes, pure python implementations using ctypes are also welcome.
         We will probably port it to a proper extension in the future.
