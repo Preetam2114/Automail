@@ -13,9 +13,9 @@ The distribution is available on various platforms :
 ## Usage:
 
 Automail has 2 user function:
-	1. csv_list:
-		Function arguments:
-		 * CSV_FILE: points towards the file location
+ 1. csv_list:
+	Function arguments:
+	 * CSV_FILE: points towards the file location
 		 
 ```py
 		from Automail import csv_list
@@ -25,23 +25,10 @@ Automail has 2 user function:
 ```
 output:
 ```bash
-		output:
 		Please enter the column name with receiver names: Column name
 		Please enter the column name with receiver email-id: Column name
 ```
 
-
-send_email : This function is responsible for structuring the email and sending it to the respective receipents
-		the function include following arguements.
-
-		subject: str argument for adding subject to email.
-
-		body: This function argument is responsible for creating the body of the email it supports HTML and Text format,
-			for case where you need to add name of the recepient use {name} the function will autoreplace it with the recepient name.
-
-		attachment: This function argument is responsbile for providing the reference of the attachment file location.
-
-		receivers : This function argument is list of list created using the csv_list().
 
 
 ## usage:
