@@ -3,28 +3,28 @@
 # Automail
 
 
-Automail is a open source python package licensed under GNU General Public License v3 
+Automail is a open source python package licensed under MIT 
 for making bulk mailing easy.
 
 The distribution is available on various platforms :
 * [Automail on PyPI](https://pypi.org/project/Automail):link:
 * [Automail on Github](https://github.com/Preetam2114/Automail):link:
 
-Automail comes with a bunch of functions:
-
-csv_list : The function returns a list of list containing the receipent name and email.
-		the function has only one arguement 'csv_file' which is the reference to the csv file containing
-		receipent details.
-
 ## Usage:
-```
+
+Automail has 2 user function:
+	1. csv_list:
+		Function arguments:
+		 * CSV_FILE: points towards the file location
+		 
+```py
 		from Automail import csv_list
 
 		myvar = csv_list('location to the csv file')
 
 ```
-```
-		*Replace Column name as per your csv*
+output:
+```bash
 		output:
 		Please enter the column name with receiver names: Column name
 		Please enter the column name with receiver email-id: Column name
