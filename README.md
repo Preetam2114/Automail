@@ -40,10 +40,10 @@ output:
    - Function Parameter:
      - subject: This argument is responsible for subject of the email.
      - body: This argument is responsible for the email body.
-       - Supports:
-         * [x] HTML TEMPLATES
-	 * [x] TEXT
-	 * [ ] Forms (not tested)
+       - Support:
+         - [x] HTML TEMPLATES
+	 - [x] TEXT
+	 - [ ] Forms (not tested)
      - attachment :This argument is responsible for attachment source and supports varities of file formats.
      - receivers : This argument passes the list of list careated using __csv_list__ finction.
 
@@ -80,12 +80,12 @@ pytest -s
 [![linkedIn][2.1]][2]
 [![github][3.1]][3]
 
-[1.1]: http://i.imgur.com/tXSoThF.png
+[1.1]: https://www.iconfinder.com/icons/104461/download/png/64
 [2.1]: https://www.iconfinder.com/icons/350988/download/png/64
-[3.1]: http://i.imgur.com/0o48UoR.png
+[3.1]: https://www.iconfinder.com/icons/394187/download/png/64
 
 [1]: https://twitter.com/pvr_rane
-[2]: https://img.icons8.com/wired/64/000000/linkedin.png
+[2]: https://www.linkedin.com/in/preetam-rane-4b0524165/
 [3]: https://github.com/Preetam2114
 
 ## Wanna Contribute?
