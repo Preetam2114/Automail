@@ -21,5 +21,7 @@ setup(
 	long_description_content_type = "text/markdown",
 	url = 'https://github.com/Preetam2114/Automail',
 	author = "Preetam Rane",
-	author_email="preetamrane2114@gmail.com"
+	author_email = "preetamrane2114@gmail.com",
+	install_requires = ['yagmail','keyring','tqdm'],
+	zip_safe=False,
 ) 

@@ -30,24 +30,24 @@ def csv_list(csv_file):
 
 
 
-def send_email(subject, body, attachment, receivers): 
+def send_email(subject='', body='', attachment='', receivers=[]): 
 
 	if receivers == []:
 		print("The receivers list was empty please enter location of the csv file")
-		receivers = input('csv_file:')
-		receivers = csv_list(csv_file)
+		receivers = input('csv_file:').strip("'")
+		receivers = csv_list(str(receivers.strip()))
 
 	if subject == '':
 		print('The subject is empty please add the email subject')
-		subject = input('subject:')
+		subject = input('subject:').strip("'")
 
 	if attachment == '':
 		print('Please add attachment to the email')
-		attachment = input('attachment:')
+		attachment = input('attachment:').strip().strip("'")
 
 	if body == '':
 		print('The body is empty please fill the email body')
-		body = input('body:')
+		body = input('body:').strip("'")
 
 
 	try:
@@ -63,14 +63,21 @@ def send_email(subject, body, attachment, receivers):
 	except:
 		print('login failed...')
 
+	if isinstance(subject, str) == False:
+		subject = str(subject)
+
+	if isinstance(body, str) == False:
+		body = str(body)
+
+	if isinstance(attachment, str) == False:
+		print('Facing issue with attachment location pls. reattach the file')
+		attachment = input('attachment:').strip().strip("'")
+
 	if '{name}' in body:
 		try:
 			for receiver in tqdm(receivers):
-				subject = str(subject)
-				body = str(body)
-				attachment = str(attachment)
 				usermail = yagmail.SMTP(str(email))
-				usermail.send(receiver[1],subject,[str(body).format(name = receiver[0]),attachment])
+				usermail.send(receiver[1],subject,[body.format(name = receiver[0]),attachment])
 			print("Emails Sent Successfully")
 		except:
 			print("Email Sending failed")
@@ -79,12 +86,9 @@ def send_email(subject, body, attachment, receivers):
 	else:
 		try:
 			for receiver in tqdm(receivers):
-				subject = str(subject)
-				body = body
-				attachment = attachment
 				usermail = yagmail.SMTP(str(email))
 				usermail.send(receiver[1],subject,[body,attachment])
 			print("Emails Sent Successfully")
 
 		except:
-			print("Email Sending failed")
+			print("Email Sending failed") 
