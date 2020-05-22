@@ -14,6 +14,13 @@ csv_list : The function returns a list of list containing the receipent name and
 		from Automail import csv_list
 
 		myvar = csv_list('location to the csv file')
+
+```
+```
+		*Replace Column name as per your csv*
+		output:
+		Please enter the column name with receiver names: Column name
+		Please enter the column name with receiver email-id: Column name
 ```
 
 
@@ -23,7 +30,7 @@ send_email : This function is responsible for structuring the email and sending 
 		subject: str argument for adding subject to email.
 
 		body: This function argument is responsible for creating the body of the email it supports HTML and Text format,
-			for case where you need to add name of the recepient use {} the function will autoreplace it with the recepient name.
+			for case where you need to add name of the recepient use {name} the function will autoreplace it with the recepient name.
 
 		attachment: This function argument is responsbile for providing the reference of the attachment file location.
 
@@ -40,5 +47,11 @@ send_email : This function is responsible for structuring the email and sending 
 		receivers = csv_list('location to the csv file')
 
 		send_email(subject, body, attachment, receivers)
+```
+```
+		output:
+		Please enter your email address: xzy@gmail.com
+		Please enter your password: .......
+		(Input for password field won't be displayed)
 ```
 

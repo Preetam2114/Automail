@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+test_Automail.py
+src/Automail.py
+src/Automail.egg-info/PKG-INFO
+src/Automail.egg-info/SOURCES.txt
+src/Automail.egg-info/dependency_links.txt
+src/Automail.egg-info/not-zip-safe
+src/Automail.egg-info/requires.txt
+src/Automail.egg-info/top_level.txt

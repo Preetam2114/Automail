@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: Automail
+Version: 0.0.2
+Summary: sends bulk automated emails
+Home-page: https://github.com/Preetam2114/Automail
+Author: Preetam Rane
+Author-email: preetamrane2114@gmail.com
+License: UNKNOWN
+Description: # Automail
+        
+        
+        Automail is a python package for making bulk mailing easy.
+        
+        Automail comes with a bunch of functions:
+        
+        csv_list : The function returns a list of list containing the receipent name and email.
+        		the function has only one arguement 'csv_file' which is the reference to the csv file containing
+        		receipent details.
+        
+        ## Usage:
+        ```
+        		from Automail import csv_list
+        
+        		myvar = csv_list('location to the csv file')
+        
+        ```
+        ```
+        		*Replace Column name as per your csv*
+        		output:
+        		Please enter the column name with receiver names: Column name
+        		Please enter the column name with receiver email-id: Column name
+        ```
+        
+        
+        send_email : This function is responsible for structuring the email and sending it to the respective receipents
+        		the function include following arguements.
+        
+        		subject: str argument for adding subject to email.
+        
+        		body: This function argument is responsible for creating the body of the email it supports HTML and Text format,
+        			for case where you need to add name of the recepient use {name} the function will autoreplace it with the recepient name.
+        
+        		attachment: This function argument is responsbile for providing the reference of the attachment file location.
+        
+        		receivers : This function argument is list of list created using the csv_list().
+        
+        
+        ## usage:
+        ```
+        		from Automail import csv_list,send_email
+        
+        		subject = 'This is the email subject'
+        		body  = 'This is the email body'
+        		attachment = 'location of attachment file'
+        		receivers = csv_list('location to the csv file')
+        
+        		send_email(subject, body, attachment, receivers)
+        ```
+        ```
+        		output:
+        		Please enter your email address: xzy@gmail.com
+        		Please enter your password: .......
+        		(Input for password field won't be displayed)
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
