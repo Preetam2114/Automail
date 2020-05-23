@@ -48,7 +48,7 @@ output:
 
 #### usage:
 ```py
-		from Automail import send_email
+		from Automail import send_email,csv_list
 
 		subject = 'This is the email subject'
 		body  = 'This is the email body'
