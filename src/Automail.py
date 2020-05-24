@@ -4,6 +4,8 @@ import keyring
 import getpass
 from tqdm.auto import tqdm
 from time import sleep
+import os
+import readline
 #from PIL import Image,ImageDraw,ImageFont
 
 
@@ -39,7 +41,6 @@ def csv_list(csv_file):
 		return 0
 
 
-
 def send_email(subject='', body='', attachment='', receivers=[]): 
 
 	if receivers == []:
@@ -51,9 +52,19 @@ def send_email(subject='', body='', attachment='', receivers=[]):
 		print('\n>The subject is empty please add the email subject')
 		subject = input('subject:').strip("'")
 
+
 	if attachment == '':
 		print('\n>Please add attachment to the email')
 		attachment = input('attachment:').strip().strip("'")
+
+	while True:
+		if os.path.isfile(attachment):
+			break
+		else:
+			print("\n######### The attachment doesn't seem to be a file #########")
+			print("#########  If the issue continues rename the file  #########")
+			print('\n>Please add attachment to the email')
+			attachment = input('attachment:').strip().strip("'")
 
 	if body == '':
 		print('The body is empty please fill the email body')

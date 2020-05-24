@@ -1,4 +1,8 @@
 [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://badge.fury.io/py/Automail)
+[![Downloads](https://img.shields.io/pypi/dm/Automail)](https://pypistats.org/packages/automail)
+[![License](https://img.shields.io/pypi/l/Automail)](https://pypi.org/project/Automail)
+[![Py-versions](https://img.shields.io/pypi/pyversions/Automail)](https://pypi.org/project/Automail)
+[![Issues](https://img.shields.io/github/issues/Preetam2114/Automail)](https://github.com/Preetam2114/Automail/issues)
 
 # Automail
 
@@ -39,10 +43,12 @@ output:
 						which can work without passing any argument	
    - Function Parameter:
      - subject: This argument is responsible for subject of the email.
-     - body: This argument is responsible for the email body the supported formats are marked below.
-       - [x] HTML TEMPLATE
-       - [x] TEXT
-       - [ ] FORMS (NOT TESTED)
+     - body: 
+       - This argument is responsible for the email body the supported formats are marked below.
+         - [x] HTML TEMPLATE
+         - [x] TEXT
+         - [ ] FORMS (NOT TESTED)
+       - The body also supports adding name of the receiver use {name} for the places where it's needed.
      - attachment :This argument is responsible for attachment source and supports varities of file formats.
      - receivers : This argument passes the list of list careated using __csv_list__ finction.
 
@@ -51,7 +57,8 @@ output:
 		from Automail import send_email,csv_list
 
 		subject = 'This is the email subject'
-		body  = 'This is the email body'
+		body  = 'This is the email body {name}'
+		# {name} will automatically get replaced by Name present in CSV file
 		attachment = 'location of attachment file'
 		receivers = csv_list('location to the csv file')
 

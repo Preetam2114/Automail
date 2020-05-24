@@ -17,11 +17,12 @@ classifiers=[
 
 setup(
 	name = "Automail",
-	version = "0.1.0",
+	version = "0.1.1",
 	description ="sends bulk automated emails",
 	py_modules = ["Automail"],
 	package_dir = {'':'src'},
 	classifiers=classifiers,
+	License = "MIT",
 	keywords = "Email",
 	long_description = long_description,
 	long_description_content_type = "text/markdown",
