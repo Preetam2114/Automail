@@ -1,6 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://badge.fury.io/py/Automail)
 [![Downloads](https://img.shields.io/pypi/dm/Automail)](https://pypistats.org/packages/automail)
-[![License](https://img.shields.io/pypi/l/Automail)](https://pypi.org/project/Automail)
+[![License](https://img.shields.io/pypi/l/Automail)](https://github.com/Preetam2114/Automail/blob/master/LICENSE.txt)
 [![Py-versions](https://img.shields.io/pypi/pyversions/Automail)](https://pypi.org/project/Automail)
 [![Issues](https://img.shields.io/github/issues/Preetam2114/Automail)](https://github.com/Preetam2114/Automail/issues)
 
