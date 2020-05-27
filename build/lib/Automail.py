@@ -39,9 +39,6 @@ def csv_list(csv_file):
 		print("Entered file format is not CSV")
 
 		return 0
-
-
-def make_certi(font,size,file):
 	
 
 

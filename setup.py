@@ -19,7 +19,7 @@ classifiers=[
 
 setup(
 	name = "Automail",
-	version = "0.1.2",
+	version = "0.1.3",
 	description ="sends bulk automated emails",
 	py_modules = ["Automail"],
 	package_dir = {'':'src'},
