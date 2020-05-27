@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Automail
-Version: 0.1.1
+Version: 0.1.2
 Summary: sends bulk automated emails
 Home-page: https://github.com/Preetam2114/Automail
 Author: Preetam Rane
@@ -8,7 +8,7 @@ Author-email: preetamrane2114@gmail.com
 License: UNKNOWN
 Description: [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://badge.fury.io/py/Automail)
         [![Downloads](https://img.shields.io/pypi/dm/Automail)](https://pypistats.org/packages/automail)
-        [![License](https://img.shields.io/pypi/l/Automail)](https://pypi.org/project/Automail)
+        [![License](https://img.shields.io/pypi/l/Automail)](https://github.com/Preetam2114/Automail/blob/master/LICENSE.txt)
         [![Py-versions](https://img.shields.io/pypi/pyversions/Automail)](https://pypi.org/project/Automail)
         [![Issues](https://img.shields.io/github/issues/Preetam2114/Automail)](https://github.com/Preetam2114/Automail/issues)
         
@@ -118,6 +118,7 @@ Description: [![PyPI version](https://badge.fury.io/py/Automail.svg)](https://ba
         
 Keywords: Email
 Platform: UNKNOWN
+Classifier: Environment :: Console
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Topic :: Communications :: Email
