@@ -19,7 +19,7 @@ classifiers=[
 
 setup(
 	name = "Automail",
-	version = "0.1.3",
+	version = "0.1.4",
 	description ="sends bulk automated emails",
 	py_modules = ["Automail"],
 	package_dir = {'':'src'},
@@ -33,5 +33,6 @@ setup(
 	author = "Preetam Rane",
 	author_email = "preetamrane2114@gmail.com",
 	packages=find_packages(),
+	install_requires = ['yagmail','keyring','tqdm'],
 	zip_safe=False,
 ) 

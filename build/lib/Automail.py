@@ -39,7 +39,7 @@ def csv_list(csv_file):
 		print("Entered file format is not CSV")
 
 		return 0
-	
+
 
 
 def send_email(subject='', body='', attachment='', receivers=[]): 
