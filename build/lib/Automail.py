@@ -41,6 +41,10 @@ def csv_list(csv_file):
 		return 0
 
 
+def make_certi(font,size,file):
+	
+
+
 def send_email(subject='', body='', attachment='', receivers=[]): 
 
 	if receivers == []:
