@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/pypi/l/Automail)](https://github.com/Preetam2114/Automail/blob/master/LICENSE.txt)
 [![Py-versions](https://img.shields.io/pypi/pyversions/Automail)](https://pypi.org/project/Automail)
 [![Issues](https://img.shields.io/github/issues/Preetam2114/Automail)](https://github.com/Preetam2114/Automail/issues)
-[![Hacktoberfest 2020](https://img.shields.io/github/hacktoberfest/2020/badges/shields?label=hacktoberfest%202020)](https://github.com/Preetam2114/Automail/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest)
+[![Hacktoberfest 2020](https://img.shields.io/github/hacktoberfest/2020/Preetam2114/Automail?style=flat-square)](https://github.com/Preetam2114/Automail/issues?q=is%3Aopen+is%3Aissue+label%3Ahacktoberfest)
 
 # Automail
 
