@@ -107,3 +107,6 @@ For prototypes, pure python implementations using ctypes are also welcome.
 We will probably port it to a proper extension in the future.
 
 Please ask questions [here](https://github.com/Preetam2114/Automail/issues).
+
+Your can checkout the Section 4 of How to Contribute to Open Source by clicking [here](http://opensource.guide/how-to-contribute).
+
